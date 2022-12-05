@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 10;
 }
 
 h1 {  color: rgba(238, 216, 216, 0.384); 
@@ -24,10 +24,17 @@ h1 {  color: rgba(238, 216, 216, 0.384);
       font-weight: bold; 
       letter-spacing: -1px; 
       line-height: 1; 
-      text-align:left; }
+      text-align:left; 
+      margin-left: 10px;
+    }
+
+h2{
+margin-right: 40px;
+text-align: justify;
+}
 
 p {
-  margin: 0;
+  /*margin-left: 60px;*/
   text-align: justify;
   padding: 10px;
 }
@@ -40,6 +47,7 @@ p {
 
 #about{
   height: auto;
+  padding: 20px;
 }
 
 
@@ -92,13 +100,16 @@ ul{
 
 #ulHorizontal li{
  display: inline;
- padding: 10px;
+ padding: 20px;
+ text-align:top;
 }
 
 .workTitle {
   background-color: rgba(67, 227, 222, 0.39);
-  color: white;
-  font-size: 16px;
+  color: rgb(24, 4, 95);
+  text-shadow: 2px 2px #e2ff0a;
+  font-size: 14px;
+  text-align:left;
   border-bottom: 5px solid #2bdd07;
   display:flex;
   height: 50px;
@@ -113,22 +124,41 @@ ul{
  height: 250px;
 } 
 
+#work :hover{
+  color: #dd0787;
+}
+
 #work1, #work2, #work3, #work4, #work5 { 
   background-image: url("../images/mine1.jpg");
   background-position: center;
   background-size:cover;
   display: flex;
   padding: 50px;
-  margin-left: 20px;
+  margin-left: 60px;
   border-bottom: 5px solid #12022f;
+  
 }
+/*
+.workTitle :hover{
+  opacity: 0.3;
+  color: rgb(251, 146, 8);
+
+}
+
+*/
 
 .page-wrapper{
   padding: 5px;
   background-image: url("../images/mine.jpg");
 }
- #titleBar1{
-  color: aquamarine;
-  display: flex;
-  height: 10px;
- }
+
+#contact{
+  align-items: center;
+}
+
+/*vertical line*/
+.verticalLine {
+  border-left: 6px solid rgba(6, 0, 33, 0.527);
+  height:auto; 
+  
+}
