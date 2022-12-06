@@ -34,7 +34,7 @@ text-align: justify;
 }
 
 p {
-  /*margin-left: 60px;*/
+ 
   text-align: justify;
   padding: 10px;
 }
@@ -91,7 +91,7 @@ header{
 }
 
 a{
-  color: white;
+  color: grey;
 }
 
 ul{
@@ -103,11 +103,11 @@ ul{
  padding: 20px;
  text-align:top;
 }
-
+/*Title bar of works*/
 .workTitle {
   background-color: rgba(67, 227, 222, 0.39);
   color: rgb(24, 4, 95);
-  text-shadow: 2px 2px #e2ff0a;
+  text-shadow: 2px 2px whitesmoke;
   font-size: 14px;
   text-align:left;
   border-bottom: 5px solid #2bdd07;
@@ -127,7 +127,7 @@ ul{
 #work :hover{
   color: #dd0787;
 }
-
+/*works*/
 #work1, #work2, #work3, #work4, #work5 { 
   background-image: url("../images/mine1.jpg");
   background-position: center;
@@ -138,14 +138,6 @@ ul{
   border-bottom: 5px solid #12022f;
   
 }
-/*
-.workTitle :hover{
-  opacity: 0.3;
-  color: rgb(251, 146, 8);
-
-}
-
-*/
 
 .page-wrapper{
   padding: 5px;
